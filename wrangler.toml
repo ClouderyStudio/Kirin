@@ -4,6 +4,7 @@ workers_dev = true
 compatibility_date = "2025-03-15"
 main = ".output/server/index.mjs"
 compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = "dist"
 
 routes = [
     { pattern = "kirin.cldery.com", zone_name = "cldery.com", custom_domain = true }
