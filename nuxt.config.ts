@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   },
 
   nitro: {
-  preset: "cloudflare-pages",  // 或 "cloudflare"
+  preset: "cloudflare",  // 或 "cloudflare"
   }, // cf适配
 
   modules: [
