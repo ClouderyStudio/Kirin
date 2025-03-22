@@ -1,2 +1,8 @@
-compatibility_flags = [ "nodejs_compat" ]
-compatibility_date = "2025-03-09"
+name = "Kirin"
+account_id = "f311d9f5723b811e4d86e1d395701cbf"
+workers_dev = true
+compatibility_date = "2025-03-15"
+
+routes = [
+    { pattern = "kirin.cldery.com", zone_name = "cldery.com", custom_domain = true }
+]
