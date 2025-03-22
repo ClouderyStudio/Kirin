@@ -4,6 +4,10 @@ export default defineNuxtConfig({
     enabled: false
   },
 
+  nitro: {
+  preset: "cloudflare-pages",  // 或 "cloudflare"
+  }, // cf适配
+
   modules: [
     '@nuxt/image',
     '@nuxtjs/stylelint-module',
