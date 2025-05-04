@@ -5,8 +5,11 @@ export default defineNuxtConfig({
   },
 
   nitro: {
-  preset: "cloudflare",  // 或 "cloudflare"
-  }, // cf适配
+    output: {
+      dir: '.output',    // 确保此路径与实际生成路径一致
+      publicDir: 'dist'  // 如果需兼容默认路径，可将 publicDir 改为 'dist'
+    }
+  },
 
   modules: [
     '@nuxt/image',
