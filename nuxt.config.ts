@@ -7,7 +7,7 @@ export default defineNuxtConfig({
   nitro: {
     output: {
       dir: '.output',    // 确保此路径与实际生成路径一致
-      publicDir: 'dist'  // 如果需兼容默认路径，可将 publicDir 改为 'dist'
+      publicDir: '.output/public'  // 如果需兼容默认路径，可将 publicDir 改为 'dist'
     }
   },
 
